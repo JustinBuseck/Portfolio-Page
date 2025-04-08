@@ -1,0 +1,135 @@
+
+body
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Arial', sans-serif;
+color: #f7f3f3;
+background-color: #f7f8fa;
+text-align: center;
+}
+/* Header */
+header {
+background-color: #007bff;
+color: white;
+padding: none;
+}
+header .btn {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 15px;
+background-color: white;
+color: #007bff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+}
+header .btn:hover {
+background-color: #f8f9fa;
+}
+strong {
+font-weight: bold;
+}
+/* Navigation */
+.gradient-nav {
+background: linear-gradient(135deg, #9d9fa3, #535355, #9d9fa3);
+color: white;
+border:#0e0c11;
+-webkit-text-fill-color: white;
+}  
+nav {
+background: #0056b3;
+padding: 10px 0;
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+nav ul li {
+margin: 0 15px;
+}
+nav ul li a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+-webkit-text-fill-color: #f8f9fa;
+}
+#portfoliolink {
+text-decoration: none;
+font-size: 20px;
+}
+.navbar-toggler-icon {
+-webkit-: white;
+}
+/* Sections */
+section {
+padding: 40px;
+}
+h2 {
+margin-bottom: 10px;
+}
+/* Projects Grid */
+.projects-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+gap: 10px;
+padding: 10px;
+}
+.project {
+background: white;
+padding: 15px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.project img {
+width: 100%;
+border-radius: 5px;
+}
+.form-control {
+background-color: rgb(222, 217, 217);
+}
+/* Footer */
+footer {
+background: #333;
+color: white;
+padding: 10px;
+margin-top: 20px;
+}
+.gradient-card {
+background: linear-gradient(135deg, #686a6e, #4e4d50, #686a6e);
+color: white;
+border-radius: 0.7rem;
+}
+.gradient-btn {
+background: linear-gradient(135deg, #0e0c11, #686a6e, #0e0c11);
+color: white;
+border: none;
+}    
+.gradient-header {
+background: linear-gradient(135deg, #424143, #686a6e, #0e0c11);
+color: white;
+border: none;
+}
+.gradient-welcome {
+background: linear-gradient(135deg, #0e0c11, #686a6e, #0e0c11);
+color: white;
+border: none;
+margin-bottom: 30px;
+}    
+.gradient-about {
+background: linear-gradient(135deg, #0e0c11, #686a6e, #0e0c11);
+color: white;
+border: none;
+}
+.About-me {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact {
+    color: white;
+}
+

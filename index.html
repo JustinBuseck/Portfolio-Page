@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Portfolio</title>
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="styles.css">
+<style>
+    body, header, section:not(.bg-light), footer {
+        color: white;
+    }
+</style>
+</head>
+<body style="background-image: url('MCA Background.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; background-attachment: fixed;">
+    <!-- Hero Section -->
+<header class="text-white text-center py-5" style="background: none;">
+    <div class="container">
+        <h2>Justin Buseck</h2>
+        <h1>Welcome to My Portfolio</h1>
+        <img src="Profile Picture.jpg" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
+        <p class="lead">Showcasing my work and passion for coding</p>
+    </div>
+</header>
+
+    <!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+         <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item">
+                
+                </a>
+            </li>
+         </ul>
+        </div>
+    </div>
+</nav>
+
+ 
+ 
+  <!-- About Section -->
+<section id="about" class="py-5" style="color: white;">
+    <div class="container">
+        <h2 class="mb-4">About Me</h2>
+        <p></p><strong>My name is  <i>Justin Buseck</i>, I retired from Federal Corrections after 15 years of service, during which I held various positions and gained invaluable experience. Now, I'm pursuing a new career as a junior web developer, eager to apply my skills and continue learning in the ever-evolving world of technology. I'm excited to embrace this fresh chapter and grow both personally and professionally in the web development field.</strong> </p>
+    </div>
+</section>
+
+  <!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="mb-4">Projects</h2>
+    <div class="row">
+<!-- Project 1-->
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <img src="images/portfolio-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+            <h5 class="card-title">This Portfolio</h5>
+            <p class="card-text">This portfolio was coded in HTML/CSS and Bootstrap.</p>
+            <p class="card-text">Language: HTML/CSS Bootstrap</p>
+            <a href="https://github.com/JustinBuseck" class="btn btn-primary">View Project</a>
+        </div>
+    </div>
+</div>
+<!--Project 2-->
+<div class="col-md-4">
+    <div class="card mb-4 shadow-sm">
+        <img src="images/rock-paper-scissors-game-play_-1024.webp" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+            <h5 class="card-title">Rock Paper Scissors</h5>
+            <p class="card-text">This is a console rock paper scissors game.</p>
+            <p class="card-text">Language: C#</p>
+            <a href="https://github.com/JessikaHayes/RockPaperScissors/blob/master/RockPaperSza/Program.cs" class="btn btn-primary">View Project</a>
+        </div>
+    </div>
+</div>
+</section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="mb-4">Contact Me</h2>
+        <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+    
+</section>
+
+  <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+        <p>&copy; 2025 Justin Buseck's Portfolio. All Rights Reserved.</p>
+        
+    </div>
+</footer>
+ 
+  <!-- Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- future JS -->
+<script src="scripts.js"></script>
+</body>
+</html>
