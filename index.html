@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="styles.css">
 <style>
     body, header, section:not(.bg-light), footer {
-        color: white;
+        color: rgb(12, 0, 0);
     }
 </style>
 </head>
@@ -21,7 +21,7 @@
         <h2>Justin Buseck</h2>
         <h1>Welcome to My Portfolio</h1>
         <img src="Profile Picture.jpg" alt="Profile Picture" width="200" height="200" style="border-radius: 50%;">
-        <p class="lead">Showcasing my work and passion for coding</p>
+        <p class="lead"style="color: black;"><strong>Showcasing my work and passion for coding</strong></p>
     </div>
 </header>
 
@@ -50,10 +50,10 @@
  
  
   <!-- About Section -->
-<section id="about" class="py-5" style="color: white;">
+<section id="about" class="py-5" style="color: black;">
     <div class="container">
-        <h2 class="mb-4">About Me</h2>
-        <p></p><strong>My name is  <i>Justin Buseck</i>, I retired from Federal Corrections after 15 years of service, during which I held various positions and gained invaluable experience. Now, I'm pursuing a new career as a junior web developer, eager to apply my skills and continue learning in the ever-evolving world of technology. I'm excited to embrace this fresh chapter and grow both personally and professionally in the web development field.</strong> </p>
+        <h1 class="mb-4">About Me</h1>
+        <h3><strong>My name is  <i>Justin Buseck</i>, I retired from Federal Corrections after 15 years of service, during which I held various positions and gained invaluable experience. Now, I'm pursuing a new career as a junior web developer, eager to apply my skills and continue learning in the ever-evolving world of technology. I'm excited to embrace this fresh chapter and grow both personally and professionally in the web development field.</strong></h3>
     </div>
 </section>
 
@@ -65,7 +65,6 @@
 <!-- Project 1-->
 <div class="col-md-4">
     <div class="card mb-4 shadow-sm">
-        <img src="images/portfolio-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" class="card-img-top" alt="Project 1">
         <div class="card-body">
             <h5 class="card-title">This Portfolio</h5>
             <p class="card-text">This portfolio was coded in HTML/CSS and Bootstrap.</p>
@@ -76,16 +75,58 @@
 </div>
 <!--Project 2-->
 <div class="col-md-4">
+    <img src="c:\Users\User\Downloads\Media.jfif" class="card-img-top" alt="Project 2">
     <div class="card mb-4 shadow-sm">
-        <img src="images/rock-paper-scissors-game-play_-1024.webp" class="card-img-top" alt="Project 2">
         <div class="card-body">
-            <h5 class="card-title">Rock Paper Scissors</h5>
-            <p class="card-text">This is a console rock paper scissors game.</p>
-            <p class="card-text">Language: C#</p>
-            <a href="https://github.com/JessikaHayes/RockPaperScissors/blob/master/RockPaperSza/Program.cs" class="btn btn-primary">View Project</a>
+            <h5 class="card-title">Mrs. Bee's Products</h5>
+            <p class="card-text">This is a webpage for Mrs. Bee's Products.</p>
+            <a href="https://github.com/JustinBuseck/Mrs.-Bee-s" class="btn btn-primary">View Project</a>
         </div>
     </div>
 </div>
+<!--Project 3-->
+<div class="col-md-4">
+    <img src="c:\Users\User\Downloads\images.jpg" class="card-img-top" alt="Project 3">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Digital Clock</h5>
+            <p class="card-text">This is a console digital clock.</p>
+            <a href="https://github.com/JustinBuseck/Digital-Clock" class="btn btn-primary">View Project</a>
+        </div>
+    </div>
+</div>
+<!--Project 4-->
+<div class="col-md-4">
+    <img src="c:\Users\User\OneDrive\Pictures\Coffee gif.gif" class="card-img-top" alt="Project 4">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Coffee Shop</h5>
+            <p class="card-text">This is a coffee shop page.</p>
+            <a href="https://github.com/JustinBuseck/Coffee-Shop" class="btn btn-primary">View Project</a>
+        </div>
+    </div>
+</div>
+<!--Project 5-->
+<div class="col-md-4">
+    <img src="c:\Users\User\Downloads\snake game.jpg" class="card-img-top" alt="Project 5">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Snake Game</h5>
+            <p class="card-text">This is an interactive Snake game.</p>
+            <a href="https://github.com/JustinBuseck/Snake" class="btn btn-primary">View Project</a>
+        </div>
+    </div>
+</div>
+<!--Project 6-->
+<div class="col-md-4">
+    <img src="c:\Users\User\Downloads\rps.image.png" class="card-img-top" alt="Project 6">
+    <div class="card mb-4 shadow-sm">
+        <div class="card-body">
+            <h5 class="card-title">Rock Paper Scissors Game</h5>
+            <p class="card-text">This is an interactive Rock Paper Scissors game.</p>
+            <a href="https://github.com/JustinBuseck/Rock-Paper-Scissors-" class="btn btn-primary">View Project</a>
+        </div>
+    </div>
 </section>
 
   <!-- Contact Section -->
@@ -94,19 +135,24 @@
         <h2 class="mb-4">Contact Me</h2>
         <form>
         <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
+            <label for="name" class="form-label"><strong>Name</strong></label>
             <input type="text" class="form-control" id="name" placeholder="Your Name">
         </div>
         <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
+            <label for="email" class="form-label"><strong>Email</strong></label>
             <input type="email" class="form-control" id="email" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
+            <label for="message" class="form-label"><strong>Message</strong></label>
             <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Send Message</button>
         </form>
+        <h3>Justin C. Buseck</h3>
+        <h3>Web Developer</h3>
+        <h3>justin.buseck@mscoding.org</h3>
+        <h3>Natchez, MS</h3>
+        <h3>601-870-0067</h3>
     </div>
     
 </section>
@@ -115,10 +161,9 @@
 <footer class="bg-dark text-white text-center py-3">
     <div class="container">
         <p>&copy; 2025 Justin Buseck's Portfolio. All Rights Reserved.</p>
-        
+        <h2><a href="#top">Top</a></h2>
     </div>
 </footer>
- 
   <!-- Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <!-- future JS -->

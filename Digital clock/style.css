@@ -1,0 +1,28 @@
+/* DigitalClock.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+ 
+    body {
+display:flex;
+ justify-content: center;
+align-items: center;
+height:100vh ;
+background-color: #282c34;
+color: white;
+font-family: Arial, sans-serif;
+}
+   
+.clock-container{
+    background-color: #61dafb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+ 
+ 
